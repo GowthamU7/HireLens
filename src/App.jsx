@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import axios from "axios";
 
-const API_BASE = "https://hirelensbe.onrender.com";
+const API_BASE = "https://hirelensbe.onrender.com/api";
 
 function cn(...classes) {
   return classes.filter(Boolean).join(" ");
